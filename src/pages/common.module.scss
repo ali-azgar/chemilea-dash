@@ -1,0 +1,162 @@
+.mainCards {
+  background-image: url(../assets/illustrations/wave.svg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-color: #fff;
+  border: none;
+  box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.1);
+}
+
+.firstrow {
+  margin-top: 10px;
+}
+
+.justify {
+  justify-content: space-around;
+}
+.textalign {
+  align-self: center;
+  margin-left: 30px;
+}
+
+.illu {
+  padding: 20px;
+}
+
+.h4text {
+  font-size: 20px;
+  font-weight: 400;
+  color: #8296a2;
+}
+.h1text {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #3d484b;
+}
+
+.mainBtn {
+  font-size: 16px;
+  font-weight: 500;
+  width: 120px;
+  background: linear-gradient(180deg, #1aeccf 0%, #16bac5 0%, #1180ba 100%);
+}
+
+.mainBtn:focus {
+  outline: none !important;
+  outline-offset: none !important;
+}
+
+.mainHead {
+  font-size: 16px;
+  color: #3d484b;
+  font-weight: 500;
+}
+
+.subHead {
+  font-size: 13px;
+  text-transform: none;
+  color: #8296a2;
+  margin-left: 5px;
+  font-weight: 500;
+}
+
+.removeBtn {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  padding: 6px 15px 6px 15px;
+  margin: 5px 40px;
+  background: transparent;
+  border-color: #e30425;
+  color: #e30425;
+  box-shadow: none !important;
+}
+.removeBtn:hover {
+  background: #e30425;
+  border-color: #e30425;
+  color: #fff;
+}
+
+.notifyBtn {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  padding: 6px 15px 6px 15px;
+  background: linear-gradient(180deg, #1aeccf 0%, #16bac5 0%, #1180ba 100%);
+  box-shadow: none !important;
+}
+
+//users page
+
+.userTable {
+  box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.1) !important;
+  margin-top: -10px;
+}
+
+//request page
+.requestTable {
+  margin: -5px 5px !important;
+}
+
+.detailTable {
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1) !important;
+}
+
+
+//notifications page
+
+.notifyForm{
+  margin: 40px 0px 50px 0px !important;
+  width: 50%;
+  
+}
+
+.notifyCard{
+  border: none !important;
+  align-items: center;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1) !important;
+}
+
+.subjectLine{
+  text-align: -webkit-center;
+}
+
+
+.placeHide:focus::placeholder {
+  color: transparent !important;
+}
+
+.placeHide:focus {
+  box-shadow: none !important;
+}
+
+.inputHide:focus {
+  box-shadow: none !important;
+}
+
+.inputHide {
+  height: 80px !important;
+}
+
+.inputHide:focus::placeholder {
+  color: transparent !important;
+}
+
+.formInput{
+  margin-top: 30px;
+}
+
+
+.formBtn{
+  width: 130px;
+  height: 42px;
+  margin-top: 30px;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  padding: 6px 15px 6px 15px;
+  background: linear-gradient(180deg, #1aeccf 0%, #16bac5 0%, #1180ba 100%);
+  box-shadow: none !important;
+}
